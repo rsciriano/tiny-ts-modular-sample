@@ -1,0 +1,22 @@
+{
+  "name": "tiny-ts-modular-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "dev-install.cmd",
+    "build": "build.cmd",
+    "start": "http-server testApp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rsciriano",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jquery": "^2.0.32",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^2.0.3",
+    "ts-loader": "^0.8.2"
+  }
+}

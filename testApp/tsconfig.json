@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "sourceMap": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "declaration": false,
+    "outDir": "dist"
+  },
+  "exclude": [
+    "out",
+    "node_modules",
+    "dist",
+    "dev",
+    "typings/main.d.ts",
+    "typings/main",
+    "reports"
+  ],
+  "version": "2."
+}

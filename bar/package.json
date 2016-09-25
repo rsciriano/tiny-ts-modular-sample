@@ -1,0 +1,15 @@
+{
+  "name": "bar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/bar.js",
+  "typings": "dist/types/index.d.ts",
+  "dependencies": { 
+    "foo": "1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rsciriano",
+  "license": "ISC"
+}
